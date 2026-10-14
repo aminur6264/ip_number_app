@@ -1,0 +1,10 @@
+name: sip_probe
+description: Diagnostic tool - performs a raw SIP REGISTER over WebSocket against the PBX and prints every SIP message exchanged.
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  web_socket_channel: ^3.0.0
+  crypto: ^3.0.3
